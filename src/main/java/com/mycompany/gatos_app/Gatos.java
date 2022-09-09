@@ -10,11 +10,12 @@ package com.mycompany.gatos_app;
  * @author -JuanLopez-
  */
 public class Gatos {
+    //Propiedades del gato
     String id;
     String url;
     String apikey = "34991433-90d9-4b26-bef0-322afbf8596f";
     String image;
-
+    //constructores
     public String getId() {
         return id;
     }
